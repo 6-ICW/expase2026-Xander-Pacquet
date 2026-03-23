@@ -31,4 +31,4 @@ function RegistrationForm({ onRegister }: Props) {
   );
 }
 
-export default RegistrationForm;
+export default RegistrationForm
