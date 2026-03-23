@@ -1,14 +1,15 @@
 import { useState } from "react";
 import RegistrationForm from "./components/RegistrationForm";
+import UserList from "./components/UserList";
 
 export default function App() {
 
-  return (
+  return (<>
     const GeregistreerdePersonen = ["Karel", "Els", "Piet"];
     <div>
-      <RegistrationForm />
+      <RegistrationForm/>
       <hr />
-      <UserList />
+      <UserList/>
     </div >
-  );
+  </>);
 }
